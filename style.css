@@ -1,0 +1,151 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+body{
+    background-image:url(images/bgimage.jpeg) ;
+    height: 664px;
+}
+
+.header,h1{
+    /* padding-top: 20px; */
+    font-size: 90px;
+    text-shadow: 3xpx 3px #c49600;
+    color: rgb(247, 196, 196);
+    text-align: center;
+}
+.gamecontainer{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin: 50px;
+}
+
+.container{
+    padding-bottom: 50px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin: 50px;
+}
+
+.innercontainer{
+    margin-top: -50px;
+    background-color: hidden;
+    display: grid;
+    grid-template-columns: repeat(3,8vw);
+    grid-template-rows: repeat(3,8vw);
+}
+#reset{
+    background-color: rgb(138, 62, 179);
+ text-align: center;
+ border-radius: 10rem;
+ size: 90px;
+ height: 50px;
+ width: 100px;
+}
+#reset:hover{
+    color: #ffffff;
+    background-color: #481452;
+    box-shadow: #493e19;
+   }
+
+.box{
+    border: 2px solid purple ;
+    display: flex;
+    font-size: 6vw;
+    justify-content: center;
+    align-items: center;
+}
+.box:hover{
+    background-color: rgb(78, 26, 110);
+}
+.boxtext{
+    font-size: 40px;
+    color: rgb(0, 0, 0);
+}
+.br-0{
+   border-right: 0;
+}
+.bl-0{
+    border-left: 0;
+}
+
+.bt-0{
+    border-top: 0;
+}
+.bb-0{
+    border-bottom: 0;
+}
+.info{
+    color: rgb(255, 255, 255);
+    /* text-align: center; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#turn{
+    padding-top: -30px;
+    padding-right: 20px;
+    font-size: 30px;
+}
+#turn{
+    display: flex;
+}
+
+
+.info{
+    margin-top: -123px;
+}
+
+.copyright{
+    color: #7fee83;
+    text-align: center;
+    padding-top: 175px;
+}
+
+
+
+
+
+
+@media only screen and (max-width: 600px) {
+    body {
+    background-image:null;
+      background-color: rgb(255, 255, 255);
+    }
+    .header,h1{
+        /* padding-top: 20px; */
+        font-size: 50px;
+        text-shadow: 3xpx 3px #c49600;
+        color: rgb(247, 196, 196);
+        text-align: center;
+    }
+
+    .gamecontainer{
+        height :325px
+    }
+
+
+.copyright{
+    color: #7fee83;
+    text-align: center;
+    padding-top: 400px;
+}
+
+.innercontainer{
+    margin-top: -50px;
+    background-color: hidden;
+    display: grid;
+    grid-template-columns: repeat(3,20vw);
+    grid-template-rows: repeat(3,20vw);
+}
+
+.box{
+  height: 100px; 
+
+}
+}
+
+
